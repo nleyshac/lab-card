@@ -1,33 +1,175 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap');
 
 :root {
+	padding: 5em;
 
 }
 
 body {
-	/* Default properties */
+	background-color: rgb(212, 212, 212);
+	font-family: 'Roboto', sans-serif;
+	
+	
 }
 
-.property {
-	background-color: lightgreen;
-	width: 20em;
-	padding: 2em;
+
+.parent {
+	position: relative;
+
+	
 }
 
-.howmany {
-	/* color: red; */
-	font-weight: 700;
+
+.child-one {
+	background-color: rgb(255, 255, 255);
+	width: 450px;
+	height: 135px;
+	box-sizing: border-box;
+	border-bottom: 1px solid rgb(182, 182, 182);
+	padding-left: 1em;
+	padding-bottom: 9em;
+	position: absolute;
+
+}
+
+.child-two {
+	background-color: white;
+	width: 450px;
+	height: 90px;
+	border-bottom: 1px solid rgb(182, 182, 182);
+	position: absolute;
+	top: 450px;
+	
+
+}
+
+.child-three {
+	background-color: rgb(233, 241, 248);
+	width: 450px;
+	height: 130px;
+	border-bottom: 1px solid rgb(182, 182, 182);
+	position: absolute;
+	top: 540px;
+	padding-left: 1em;
+	
+
+}
+	
+.child-four {
+	background-color: white;
+	width: 450px;
+	height: 70px;
+	border-bottom: 1px solid rgb(182, 182, 182);
+	position: absolute;
+	top: 660px;
+	padding-left: 1em;
+	border-radius: 0 0 25px 25px;
+}
+
+.learn {
+	background-color: rgb(10, 9, 71);
+	width: 160px;
+	height: 35x;
+	border: 3px solid rgb(131, 131, 131); 
+	box-sizing: content-box;
+	position: absolute;
+	left: 7em;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300;
+	color: white;
+	
+}
+
+
+	
+
+.resize {
+	width:450px;
+	height: 300px;
+	position: relative;
+	top: 2px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+
+.bedbath {
+	color: rgb(75, 74, 74);
+	font-weight: 400;
+	font-size: 18px;
+	padding-bottom: 6em;	
+	padding-left: 0.3em;
 }
 .rooms {
 	list-style-type: none;
+	padding-bottom: 1em;
 }
 
-.a {
-	/* background-color: blue; */
+.title {
+	color: rgb(94, 94, 94);
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 550;
+
 }
-.b {
-	/* background-color: red; */
+
+.price {
+	color:black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	font-weight: 100;
+
 }
-.c {
-	/* background-color: gold; */
+
+.address {
+	color:rgb(121, 121, 121);
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+
+.home-icons {	
+	color:rgb(87, 86, 86);
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+
+}
+.bed-icon {
+	max-width: 4%;
+	max-height: 4%;
+	transform: scale(4); 
+	padding-right: 0.4em;
+	padding-left:0.1em;
+}
+
+.bath-icon {
+	max-width: 4%;
+	max-height: 4%;
+	transform: scale(4); 
+	padding-right: 0.4em;
+	padding-left: 0.1em;
+}
+
+.realtor {
+	color: rgb(87, 85, 85);
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 700;
+	padding-left: 0.5em;
+}
+
+.annie {
+	color: rgb(0, 0, 0);
+	font-size: 19px;
+	padding-left: 0.5em;
+}
+
+.num {
+	color: grey;
+	font-size: 18px;
+	font-weight: 100;
+	padding-left: 0.5em;
 }
